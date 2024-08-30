@@ -651,6 +651,9 @@ int vcu_dec_set_param(struct vdec_vcu_inst *vcu, unsigned int id, void *param,
 	unsigned long *param_ptr = (unsigned long *)param;
 	int err = 0;
 	int i = 0;
+	struct list_head *p, *q;
+	struct mtk_vcodec_ctx *temp_ctx;
+	int msg_valid = 0;
 
 	mtk_vcodec_debug(vcu, "+ id=%X", AP_IPIMSG_DEC_SET_PARAM);
 
