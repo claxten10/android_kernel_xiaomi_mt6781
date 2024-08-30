@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--dct_version="2.5" buid_sn="161102" dws_modification_time="03.26.2021.13:59:37"-->
+<!--dct_version="2.5" buid_sn="161102" dws_modification_time="12.14.2022.11:15:10"-->
 <dct_cfg>
     <general chip="MT6781">
         <proj>MT6781</proj>
@@ -406,7 +406,7 @@
                 <def_mode>1</def_mode>
                 <inpull_en>true</inpull_en>
                 <inpull_selhigh>false</inpull_selhigh>
-                <def_dir>OUT</def_dir>
+                <def_dir>IN</def_dir>
                 <out_high>false</out_high>
                 <varName0>GPIO_ANT_SEL2_PIN</varName0>
                 <smt>true</smt>
@@ -1805,7 +1805,8 @@
                 <inpull_en>true</inpull_en>
                 <inpull_selhigh>false</inpull_selhigh>
                 <def_dir>OUT</def_dir>
-                <out_high>false</out_high>
+                <out_high>true</out_high>
+                <varName0>AUDIO_REC_PA_RST</varName0>
                 <smt>true</smt>
                 <ies>true</ies>
             </gpio164>
@@ -1815,7 +1816,8 @@
                 <inpull_en>true</inpull_en>
                 <inpull_selhigh>false</inpull_selhigh>
                 <def_dir>OUT</def_dir>
-                <out_high>false</out_high>
+                <out_high>true</out_high>
+                <varName0>AUDIO_PA_RST</varName0>
                 <smt>true</smt>
                 <ies>true</ies>
             </gpio165>
@@ -1873,8 +1875,8 @@
             </gpio170>
             <gpio171>
                 <eint_mode>false</eint_mode>
-                <def_mode>0</def_mode>
-                <inpull_en>true</inpull_en>
+                <def_mode>1</def_mode>
+                <inpull_en>false</inpull_en>
                 <inpull_selhigh>false</inpull_selhigh>
                 <def_dir>OUT</def_dir>
                 <out_high>false</out_high>
@@ -1893,10 +1895,10 @@
             </gpio172>
             <gpio173>
                 <eint_mode>false</eint_mode>
-                <def_mode>2</def_mode>
-                <inpull_en>true</inpull_en>
+                <def_mode>0</def_mode>
+                <inpull_en>false</inpull_en>
                 <inpull_selhigh>false</inpull_selhigh>
-                <def_dir>IN</def_dir>
+                <def_dir>OUT</def_dir>
                 <out_high>false</out_high>
                 <smt>true</smt>
                 <ies>true</ies>
