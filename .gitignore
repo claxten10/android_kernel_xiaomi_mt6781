@@ -132,3 +132,9 @@ all.config
 
 # Kdevelop4
 *.kdev4
+
+# Other
+out/
+toolchains/
+build.sh
+*.rej
